@@ -1,0 +1,30 @@
+<html>
+  <div>
+  <center>
+    <button onclick="luxray()">Greatest and lowest value</button>
+      </center>
+</div>  
+  <script>
+  function luxray() {
+  shinx(prompt("Enter values separated by a comma"));
+    
+  }
+    
+    function shinx(shinxlist) {
+let max = Number.MIN_VALUE;
+let min = Number.MAX_VALUE;
+
+for (luxio = 0; luxio < shinxlist.length; luxio++) {
+if (shinxlist[luxio] > max){
+max = shinxlist[luxio];
+}
+if (shinxlist[luxio] < min){
+min = shinxlist[luxio];
+}
+}
+alert("Highest Value: " + max);
+alert("Lowest Value: " + min);
+}
+  
+  </script>
+</html>
