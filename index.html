@@ -6,11 +6,14 @@
 </div>  
   <script>
   function luxray() {
-  let shiny_shinx = [1, 2, 3, 4, 5]
-  shinx(shiny_shinx)
- 
-    
-  }
+
+  let shiny_shinx = prompt("Please enter your numbers seperated by a space", "0 0");
+  let shiny_luxio = shiny_shinx.split(' ');
+
+  shinx(shiny_luxio);
+
+}
+
     
     function shinx(shinxlist) {
 let max = Number.MIN_VALUE;
